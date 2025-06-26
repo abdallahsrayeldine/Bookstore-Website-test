@@ -5,7 +5,7 @@ FROM public.ecr.aws/docker/library/php:8.1.32-apache
 WORKDIR /var/www/html
 
 # Install any PHP extensions if needed (e.g., mysqli)
-RUN docker-php-ext-install mysqli && \
+RUN docker-php-ext-install pdo pdo_mysql mysqli && \
     a2enmod rewrite
 
 # Copy source code into container
