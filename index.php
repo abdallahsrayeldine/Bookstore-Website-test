@@ -7,7 +7,7 @@
 	<?php
 	session_start();
 	if (isset($_POST['ac'])) {
-		$servername = "localhost";
+		$servername = "bookstore-migration-bookstoredb-vczqyqs4oakr.ctouaoi6amkx.us-east-1.rds.amazonaws.com";
 		$username = "root";
 		$password = "password";
 
@@ -34,7 +34,7 @@
 	}
 
 	if (isset($_POST['delc'])) {
-		$servername = "localhost";
+		$servername = "bookstore-migration-bookstoredb-vczqyqs4oakr.ctouaoi6amkx.us-east-1.rds.amazonaws.com";
 		$username = "root";
 		$password = "password";
 
@@ -51,7 +51,7 @@
 		$conn->query($sql);
 	}
 
-	$servername = "localhost";
+	$servername = "bookstore-migration-bookstoredb-vczqyqs4oakr.ctouaoi6amkx.us-east-1.rds.amazonaws.com";
 	$username = "root";
 	$password = "password";
 
