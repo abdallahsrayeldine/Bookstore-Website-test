@@ -5,7 +5,6 @@
 
 <body>
 	<?php
-	session_start();
 	if (isset($_POST['ac'])) {
 		$servername = "bookstore-migration-bookstoredb-vczqyqs4oakr.ctouaoi6amkx.us-east-1.rds.amazonaws.com";
 		$username = "root";
@@ -83,7 +82,7 @@
 		echo '<header>';
 		echo '<blockquote>';
 		echo '<a href="index.php"><img src="image/logo.png"></a>';
-		echo '<form class="hf" action="Register.php"><input class="hi" type="submit" name="submitButton" value="Register"></form>';
+		echo '<form class="hf" action="register.php"><input class="hi" type="submit" name="submitButton" value="Sign up"></form>';
 		echo '<form class="hf" action="login.php"><input class="hi" type="submit" name="submitButton" value="Login"></form>';
 		echo '</blockquote>';
 		echo '</header>';
