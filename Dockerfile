@@ -1,5 +1,5 @@
 # Use a stable, secure base image
-FROM php:8.2-apache
+FROM public.ecr.aws/php/php:8.2-apache
 
 # Set working directory
 WORKDIR /var/www/html
