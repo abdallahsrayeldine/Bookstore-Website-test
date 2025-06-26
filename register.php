@@ -65,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 												} else {
 													$address = $_POST['address'];
 
-													$servername = "localhost";
+													$servername = "bookstore-migration-bookstoredb-vczqyqs4oakr.ctouaoi6amkx.us-east-1.rds.amazonaws.com";
 													$username = "root";
 													$password = "password";
 
