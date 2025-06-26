@@ -83,7 +83,7 @@
 		echo '<blockquote>';
 		echo '<a href="index.php"><img src="image/logo.png"></a>';
 		echo '<form class="hf" action="register.php"><input class="hi" type="submit" name="submitButton" value="Sign up"></form>';
-		echo '<form class="hf" action="login.php"><input class="hi" type="submit" name="submitButton" value="Login"></form>';
+		echo '<form class="hf" action="login.php"><input class="hi" type="submit" name="submitButton" value="Log in"></form>';
 		echo '</blockquote>';
 		echo '</header>';
 	}
