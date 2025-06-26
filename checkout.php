@@ -11,7 +11,7 @@
 	session_start();
 
 	if (isset($_SESSION['id'])) {
-		$servername = "localhost";
+		$servername = "bookstore-migration-bookstoredb-vczqyqs4oakr.ctouaoi6amkx.us-east-1.rds.amazonaws.com";
 		$username = "root";
 		$password = "password";
 
